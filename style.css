@@ -139,9 +139,9 @@ header{position:relative;display: block;background-color: #245b87;color:#fff;hei
 .header-toprow ul li{position: relative;display: inline-block;width: 100px;}
 .header-toprow ul li a{position:relative;display: block;color:#fff;font-size: 12px;line-height: 30px;}
 
-.logo {position: relative;width: 300px;float: left;top:-12px;z-index: 2;}
+.logo {position: relative;width: 300px;float: left;top:8px;z-index: 2;}
 .logo h1{margin:0;}
-.logo a{position: relative;display: block;color: #fff;text-indent: -9999px;background: url(/assets/img/logo1.png) no-repeat center;width:200px;height: 96px;background-size: 100% auto;}
+.logo a{position: relative;display: block;color: #fff;text-indent: -9999px;background: url(/assets/img/logo2.png) no-repeat center;width:260px;height:50px;background-size: 100% auto;}
 
 .menublock{position: relative;width: calc(100% - 320px);float: right;height:70px;}
 .menublock ul{float: right;}
@@ -178,16 +178,20 @@ header{position:relative;display: block;background-color: #245b87;color:#fff;hei
 .service-inner{position: relative;display: table;width: 100%;}
 .service-content{position: relative;z-index: 2;opacity: 0}
 .service-wrap-btm{width: 33.33%;}
-.service-wrap .service-content-overlay{position: absolute;top:0;left:0;height:100%;width:100%;transition:all 1s ease;background-color: rgba(222,88,66,0.8);opacity:1;border: 1px solid #eee}
+.service-wrap .service-content-overlay{position: absolute;top:0;left:0;height:100%;width:100%;transition:all 1s ease;background-color: rgba(222,88,66,1);opacity:1;border: 1px solid #eee}
 .service-wrap:hover .service-content-overlay{position: absolute;height:100%;width: 100%;left:0;top:0;background-color: rgba(36,91,135,1); opacity: 1;}
 .service-wrap .service-title{font-size:17px;line-height:23px;font-weight: 600;color: #fff;text-transform: uppercase;}
 .service-wrap .service-desc{font-size: 14px;line-height:20px;color: #ccc;font-weight: 400;}
 .service-wrap:hover .service-content{opacity: 1;}
 
+.img-icon-wrap{position: absolute;display: block;width: 70px;height: 70px;margin: 0 auto;z-index: 2;top:40px;left:50%;margin-left: -35px;}
+.img-icon-wrap img{width: 100%;height: auto;}
+.service-wrap:hover .img-icon-wrap{display: none;}
+
 .service-titleone{opacity:1;z-index: 3;position:absolute; bottom:20px;left:15px;right:15px;z-index:2;transition: all 0.1s ease;text-align: center;}
 .service-wrap:hover .service-titleone{opacity: 0}
 .readmore{color:#DE5842;font-size: 15px;font-weight: 600;}
-.readmore:hover{color: #DE5842;}
+.readmore:hover{color: #DE5842;text-decoration: underline;}
 
 
 .clients-wrapper{position: relative;min-height: 200px;}
@@ -208,8 +212,15 @@ header{position:relative;display: block;background-color: #245b87;color:#fff;hei
 .blog-content .blog-desc{position: relative;font-size: 14px;line-height: 20px;height: 60px;overflow: hidden;display: block;color: #ccc;}
 
 
-.contact-wrapper{position: relative;min-height:300px;}
+.contact-wrapper{position: relative;min-height:200px;}
+.contact-wrapper p{position: relative;color: #fff;margin:20px 0;}
 
+.contact-wrapper form{width: 80%;margin:0 auto;position: relative;}
+.contact-wrapper form input{width: 100%;}
+
+.detailswrap{position: relative;display: block;width: 50%;margin: 0 auto;}
+.detailswrap p, p.ct-title{color: #DE5842; font-size: 17px;}
+.detailswrap a{font-size: 16px;line-height: 23px;color: #fff;}
 
 footer{position:relative;display: block;background-color: #245b87;color:#fff;padding: 20px 0px 0;}
 .footer-wrapper{padding: 30px 10px;}
